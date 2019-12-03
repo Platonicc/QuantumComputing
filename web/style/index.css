@@ -4,12 +4,33 @@
 }
 
 body {
-    background-color: black;
+    background-color: #161616;
     color: white;
-    font-family: platonicc-font;
 }
 
-h1 {
-    text-align: center;
+.head_div {
     padding: 10px;
+    border-block-style: solid;
+    background-color: #252525;
+    border-radius: 20px;
+    border-color: #00000000;
+    box-shadow: 5px 5px 20px black;
+    margin: 30px 40px 30px 40px;
+    text-align: center;
+}
+
+.head_logo {
+    width: 10%;
+    height: 10%;
+    padding: 10px 0px 0px 0px;
+}
+
+.head_title {
+    font-family: platonicc-font;
+    font-size: 1.5vW;
+}
+
+.head_desc {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.1vW;
 }
