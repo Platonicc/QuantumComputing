@@ -8,8 +8,16 @@ body {
     color: white;
 }
 
-.head_div {
-    padding: 10px;
+.a {
+    color: orange;
+}
+
+.a:hover {
+    color: grey;
+}
+
+.div_box {
+    padding: 20px;
     border-block-style: solid;
     background-color: #252525;
     border-radius: 20px;
@@ -19,16 +27,48 @@ body {
     text-align: center;
 }
 
-.head_logo {
+.div_info {
+    text-align: center;
+    padding: 20px;
+    margin: 30px 40px 30px 40px;
+}
+
+.nav {
+    border-radius: 0px 0px 5px 5px;
+    border-color: #00000000;
+    margin: 0;
+    list-style-type: none;
+    padding: 0px;
+}
+
+.nav_item {
+    padding: 1%;
+    width: 25%;
+    display: block;
+    color: orange;
+    background-color: transparent;
+    text-align: center;
+}
+
+.nav_item:hover {
+    background-color: orange;
+}
+
+.nav_item .nav_link {
+    color: orange;
+}
+
+.nav_item:hover .nav_link {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
     width: 10%;
     height: 10%;
-    padding: 10px 0px 0px 0px;
 }
 
-.head_title {
+.title {
     font-family: platonicc-font;
-}
-
-.head_desc {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
 }

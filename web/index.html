@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style/index.css">
     <link rel="icon" href="img/icon/Platonicc.png">
     <title>
@@ -8,12 +9,18 @@
     </title>
 </head>
 <body>
-    <div class="head_div">
+    <ul class="nav">
+        <li class="nav_item" type = "button"><a class = "nav_link" href="index.html">Home</a></li>
+        <li class="nav_item" type = "button"><a class = "nav_link" href="index.html">Generator</a></li>
+        <li class="nav_item" type = "button"><a class = "nav_link" href="index.html">Contact</a></li>
+        <li class="nav_item" type = "button"><a class = "nav_link" href="index.html">About</a></li>
+    </ul>
+    <div class="div_info">
         <a href="https://github.com/Platonicc">
-            <img class="head_logo" src="img/icon/Platonicc.png" alt= "Platonic image">
+            <img class="logo" src="img/icon/Platonicc.png" alt= "Platonic image">
         </a>
-        <h2 class="head_title">Welcome to Quantum Random Number Generation and Stimulation </h2>
-        <span class="head_desc">
+        <h2 class="title">Welcome to Quantum Random Number Generation and Stimulation </h2>
+        <span class = "text">
         Random number generation is something we have been doing for a long time, sometimes for making a game or a stimulation or anything. 
         But the core idea of generating truly random numbers on a classical computer is a myth. 
         Any number generated on a classical computer is based on an algorithm with a randomly generated seed value, that is called a pseudorandom number. 
