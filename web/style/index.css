@@ -72,3 +72,7 @@ body {
     font-family: platonicc-font;
     padding: 10px;
 }
+
+.highlight {
+    color: orange;
+}
