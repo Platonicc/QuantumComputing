@@ -8,11 +8,12 @@ body {
     color: white;
 }
 
-.a {
+a {
     color: orange;
+    font-weight: 650;
 }
 
-.a:hover {
+a:hover {
     color: grey;
 }
 
