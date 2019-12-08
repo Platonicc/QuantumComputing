@@ -1,6 +1,11 @@
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="readme_style.css">
+<style>
+h1{
+  text-align: center;
+  color: red;
+}
+</style>
 </head>
 <body>
 <h1> Quantum Computing</h1>
