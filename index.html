@@ -63,7 +63,6 @@
           This service generates random numbers using the quantum computers provided by <a target="_blank" href="https://www.ibm.com/quantum-computing/">IBM-Q</a> via <a target="_blank" href="https://qiskit.org/">Qiskit</a>. IQM-Q provides Quantum Comupters with upto <strong>16 qubits</strong> i.e. we can generate a maximum of 16 bit value at a particular time. The circuit involved in the generation of the random numbers has a <a target="_blank" href="https://www.quantum-inspire.com/kbase/hadamard/">Hadamard Gate</a> on each qubit which put them in a <a target="_blank" href="https://en.wikipedia.org/wiki/Quantum_superposition">super-position</a> with a 50% probablity of resulting in 0 or in 1 when the <strong>measurement gate</strong> is applied to it.
           <br><br>
           Here is the circuit diagram of the 12 qubits random number generator:
-          $\frac{1}{\sqrt{2}}|\mathbf{0}> + \frac{1}{\sqrt{2}}|\mathbf{1}>$
             <pre>
          ┌───┐┌─┐                                                                                   
  q_0: |0>┤ H ├┤M├───────────────────────────────────────────────────     ┌─────────────────────────┐
