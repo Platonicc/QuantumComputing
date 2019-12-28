@@ -123,6 +123,17 @@ pre{
     color: orange;
 }
 
+.eq{
+    color: orange;
+    padding=50px;
+    font-size: 120%;
+}
+
+.featured_title{
+    font-style: italic;
+    font-family: platonicc-font;
+}
+
 
 @media (max-width: 900px){
     .logo{
