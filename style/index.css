@@ -94,6 +94,7 @@ a:hover {
 
 .nav_item .nav_link {
     color: orange;
+    font-size: auto;
 }
 
 .nav_item:hover .nav_link {
