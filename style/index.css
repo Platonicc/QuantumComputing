@@ -19,7 +19,6 @@ a:hover {
 
 .circuit{
     color: orange;
-
 }
 
 .branding_container{
@@ -130,7 +129,6 @@ a:hover {
 .featured_title{
     font-style: italic;
 }
-
 
 @media (max-width: 900px){
     .logo{
