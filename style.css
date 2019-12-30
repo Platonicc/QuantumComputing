@@ -42,19 +42,7 @@ a:hover {
     flex-direction: row;
 }
 
-.platonicc_card{
-    display: flex;
-    flex-direction: column;
-    flex:1;
-}
-
-.quantum_elit_card{
-    display: flex;
-    flex-direction: column;
-    flex:1;
-}
-
-.qiskit_card{
+.platonicc_card, .qiskit_card, .quantum_elit_card{
     display: flex;
     flex-direction: column;
     flex:1;
