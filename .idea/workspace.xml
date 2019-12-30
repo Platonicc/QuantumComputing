@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f5963c8-afd1-4442-8ccc-ea05829f1acc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.vs/ProjectSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/QuantumComputing/v16/.suo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/VSWorkspaceState.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/slnx.sqlite" afterDir="false" />
-    </list>
+    <list default="true" id="0f5963c8-afd1-4442-8ccc-ea05829f1acc" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +38,7 @@
       <option name="presentableId" value="Default" />
       <updated>1577737294799</updated>
       <workItem from="1577737305413" duration="129000" />
+      <workItem from="1577739285231" duration="8000" />
     </task>
     <servers />
   </component>
@@ -54,7 +50,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
