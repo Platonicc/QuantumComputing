@@ -13,6 +13,11 @@ a {
     font-weight: 650;
 }
 
+footer a{
+    font-weight: 400;
+    font-size: 90%;
+}
+
 a:hover {
     color: grey;
 }
@@ -30,6 +35,7 @@ a:hover {
     display: flex;
     flex-direction: column;
     flex:1;
+    flex-wrap: wrap;
 }
 
 .quantum_elit_card{
@@ -128,6 +134,38 @@ a:hover {
     font-style: italic;
 }
 
+footer{
+    display: flex;
+    flex-direction: row;
+    align-self: stretch;
+    border-block-style: solid;
+    background-color: #151515;
+    padding: 20px;
+    border-color: transparent;
+    text-align: center;
+    flex:1;
+}
+
+.footer_column{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+}
+
+.footer_column_last{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.footer_logo{
+    max-height: 30%;
+    max-width: 30%;
+    height: auto;
+    width: auto;
+}
+
 @media (max-width: 900px){
     .logo{
          max-width: 50%;
@@ -138,4 +176,12 @@ a:hover {
     width: auto;
     height: auto;
     }
+
+    .footer_logo{
+    max-height: 40%;
+    max-width: 40%;
+    height: auto;
+    width: auto;
+}
+
 }
