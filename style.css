@@ -18,6 +18,17 @@ footer a{
     font-size: 90%;
 }
 
+.end_bar a{
+     font-weight: 400;
+    font-size: 90%;
+    margin: 20px;
+}
+
+.end_bar{
+    margin: 10px;
+    text-align: center;
+}
+
 a:hover {
     color: grey;
 }
@@ -77,15 +88,25 @@ a:hover {
     margin: 30px 40px 30px 40px;
 }
 
-.nav_item {
+.nav {
+    border-radius: 0px 0px 5px 5px;
+    border-color: transparent;
+    margin: 0;
+    list-style-type: none;
     padding: 0px;
+}
+
+.nav_item {
     width: 25%;
     display: block;
     color: orange;
     background-color: transparent;
     text-align: center;
 }
-
+.nav a{
+    display: block;
+    padding: 15px;
+}
 .nav_item:hover {
     background-color: orange;
 }
@@ -98,11 +119,6 @@ a:hover {
 .nav_item:hover .nav_link {
     color: #161616;
     text-decoration: none;
-}
-
-.nav a{
-    display: block;
-    padding: 15px;
 }
 
 .logo {
@@ -150,13 +166,14 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 50%;
+    width: 25%;
 }
 
 .footer_column_last{
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    width: 50%;
 }
 
 .footer_logo{
