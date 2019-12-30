@@ -71,16 +71,8 @@ a:hover {
     margin: 30px 40px 30px 40px;
 }
 
-.nav {
-    border-radius: 0px 0px 5px 5px;
-    border-color: transparent;
-    margin: 0;
-    list-style-type: none;
-    padding: 0px;
-}
-
 .nav_item {
-    padding: 1%;
+    padding: 0px;
     width: 25%;
     display: block;
     color: orange;
@@ -100,6 +92,11 @@ a:hover {
 .nav_item:hover .nav_link {
     color: #161616;
     text-decoration: none;
+}
+
+.nav a{
+    display: block;
+    padding: 15px;
 }
 
 .logo {
